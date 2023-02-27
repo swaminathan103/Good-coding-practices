@@ -1,6 +1,10 @@
 function canVote(age) {
-    if (age == null) return "Oops!, age is not passed"
-    if (age < 18) return "Cannot vote, Sorry!"
+    if (age == null) {
+        return "Oops!, age is not passed"
+    }
+    if (age < 18) {
+        return "Cannot vote, Sorry!"
+    }
     return "You can vote!"
 }
 
